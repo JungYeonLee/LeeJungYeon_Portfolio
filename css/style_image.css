@@ -1,0 +1,31 @@
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+  font-size: 14px; color: gray;
+    padding: 10px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+.title{
+  color:gray;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+table, td{
+  border: 0px solid black;
+  width: 100%;
+}
