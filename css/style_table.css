@@ -1,0 +1,42 @@
+div{
+ color: gray;
+ border: 0px solid gray;
+ padding: 10px;
+ margin: 10px;
+}
+
+.title{
+  border: 0px solid gray
+}
+
+li{
+  color: gray;
+  font-size:14px;
+  margin: 5px;
+  list-style: none;
+}
+
+table{
+font-size:15px;
+color:gray;
+text-align: left;
+padding: 5px;
+}
+
+ex{
+  font-size: 12px; color: #a1a1a1;
+}
+
+#grid{
+  border:0px solid pink;
+  display:grid;
+  grid-template-columns: 1fr 1fr
+}
+
+.right{
+  text-align: right;
+  margin-right: 150px;
+}
+.left{
+  text-align: left;
+}
