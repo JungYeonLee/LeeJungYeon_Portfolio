@@ -1,0 +1,16 @@
+ol{
+  list-style:none;
+}
+
+a {
+  text-decoration: none; color: gray;
+  font-size: 14px;
+}
+a:visited {text-decoration: none;}
+a:active {text-decoration: none; color: skyblue;}
+a:hover {text-decoration: none; color: skyblue;}
+
+a.title {
+  font-size: 18px;
+  text-align: left;
+}
