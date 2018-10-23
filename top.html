@@ -2,23 +2,53 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+
   </head>
 
   <style>
-/* title style */
-  h1, a{
-    font-size: 30px;
-    text-decoration: none;
-    color:gray;
+#grid{
+  border:0px solid pink;
+  display:grid;
+  grid-template-columns: 8fr 1fr 1fr
+}
+
+  div{
+   border: 0px solid gray;
+   padding: 10px;
+   margin: 10px;
   }
-  .text {
-    text-indent: 1em;
-    text-align: left;
-  }
-  </style>
+
+  a {
+    font-size: 13px; color:gray;
+    text-decoration: none; color: gray;}
+  a:visited {text-decoration: none;}
+  a:active {text-decoration: none; color: skyblue;}
+  a:hover {text-decoration: none; color: skyblue;}
+
+a.text{
+  font-size: 30px; color:gray;
+  text-align: left;
+}
+
+.language{
+  text-align: right;
+}
+
+</style>
 
   <body>
-    <!--link-->
-    <a href="main.html" target="contents" class="text"> <p><h1>LeeJungYeon's Portfolio</h1> </a>
+    <div id="grid">
+      <div>
+        <a href="#" onclick="parent.menu.location.href='menu.html'; parent.contents.location.href='main.html'" class="text">
+<b>LeeJungYeon's Portfolio</b></a></div>
+<div>
+<a href="#" onclick="parent.menu.location.href='menu.html'; parent.contents.location.href='main.html'">
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;한국어</a></div>
+    <div>
+<a href="#" onclick="parent.menu.location.href='menu_e.html'; parent.contents.location.href='main_e.html'">English</a></div>
+</table>
+
+
+
   </body>
 </html>
