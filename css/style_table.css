@@ -19,8 +19,11 @@ li{
 table{
 font-size:15px;
 color:gray;
-text-align: left;
 padding: 5px;
+}
+
+th{
+  text-align: left;
 }
 
 ex{
